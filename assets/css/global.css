@@ -16,10 +16,10 @@ a {
 }
 
 body {
-  font-family: DM, sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
