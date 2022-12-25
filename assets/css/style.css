@@ -215,9 +215,84 @@ header .container .sign-up-and-sign-in a:last-child {
   width: 50%;
 }
 
+#about .container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #about .container .content-image img {
   width: 80%;
 }
 
-#about .container .content {
+#about .container .content .preset-about-live {
+  display: flex;
+}
+
+#about .container .content .preset-about-live img {
+  width: 20%;
+}
+
+#about .container .content .preset-about-live h3 {
+  margin-block: 0.5rem;
+}
+
+#join {
+  background: #d9f7ff;
+  padding-block: 5rem;
+}
+
+#join .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#join .container .content-image {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#join .container .form h2 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+#join .container .form-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+
+  margin-top: 1rem;
+}
+
+#join .container form input {
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+}
+
+#join .container form button {
+  margin-top: 1rem;
+  width: 40%;
+  padding: 0.8rem;
+
+  background: #00873e;
+  border: 0;
+
+  color: #fff;
+
+  border-radius: 0.2rem;
+}
+
+#join .container .content-image img {
+  width: 90%;
 }
