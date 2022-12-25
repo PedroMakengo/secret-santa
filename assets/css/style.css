@@ -267,6 +267,16 @@ header .container .sign-up-and-sign-in a:last-child {
   margin-top: 1rem;
 }
 
+#join .container .form-content .title-form h3 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 300;
+  margin-bottom: 0.7rem;
+}
+
+#join .container .form-content .title-form p {
+  font-weight: 100;
+}
+
 #join .container form input {
   width: 100%;
   box-sizing: border-box;
@@ -299,4 +309,27 @@ header .container .sign-up-and-sign-in a:last-child {
 
 #join .container .content-image img {
   width: 90%;
+}
+
+footer {
+  height: 40vh;
+}
+
+.footer-bottom {
+  background-color: #fff;
+  background-image: url(../img/Footer\ Bottom.png);
+  background-size: cover;
+  background-position: bottom;
+
+  height: 50%;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+
+footer .container img {
+  width: 15%;
 }
