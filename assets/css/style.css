@@ -105,6 +105,7 @@ header .container .sign-up-and-sign-in a:last-child {
   justify-content: center;
 }
 
+#about .container .content h2,
 #new .container .christmas-wish-and-party .content h2,
 #new .container .about-new .content h2 {
   font-size: 3rem;
@@ -112,6 +113,7 @@ header .container .sign-up-and-sign-in a:last-child {
   font-weight: 300;
 }
 
+#about .container .content > p,
 #new .container .christmas-wish-and-party .content p,
 #new .container .about-new .content p {
   margin-block: 1.5rem;
@@ -132,11 +134,26 @@ header .container .sign-up-and-sign-in a:last-child {
   align-items: flex-end;
 }
 
+/* GIFT */
 #gift {
   background: #d9f7ff;
 
   margin-top: 5rem;
-  padding-bottom: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+#gift .shadow {
+  position: relative;
+  width: 100%;
+  height: 2px;
+}
+
+#gift .container {
+  height: 99.8%;
+  padding-bottom: 5rem;
 }
 
 #gift .container .title {
@@ -145,14 +162,12 @@ header .container .sign-up-and-sign-in a:last-child {
   flex-direction: column;
 
   text-align: center;
-
   padding-block: 4rem;
 }
 
 #gift .container .title h2 {
   font-size: 2.5rem;
   font-family: "Yeseva One", cursive;
-
   margin-bottom: 1rem;
 }
 
@@ -163,7 +178,6 @@ header .container .sign-up-and-sign-in a:last-child {
 #gift .container .gift-items {
   display: flex;
   justify-content: space-between;
-
   gap: 3rem;
 }
 
@@ -183,4 +197,27 @@ header .container .sign-up-and-sign-in a:last-child {
   padding-block: 0.9rem;
   font-family: "Yeseva One", cursive;
   font-weight: 300;
+}
+
+/* ABOUT */
+#about {
+  padding-block: 5rem;
+  display: flex;
+}
+
+#about .container {
+  display: flex;
+  height: 98%;
+}
+
+#about .container .content,
+#about .container .content-image {
+  width: 50%;
+}
+
+#about .container .content-image img {
+  width: 80%;
+}
+
+#about .container .content {
 }
