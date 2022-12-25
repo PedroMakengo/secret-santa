@@ -249,10 +249,8 @@ header .container .sign-up-and-sign-in a:last-child {
   gap: 2rem;
 }
 
-#join .container .content-image {
-  width: 60%;
-  display: flex;
-  justify-content: flex-end;
+#join .container .form {
+  width: 50%;
 }
 
 #join .container .form h2 {
@@ -291,6 +289,12 @@ header .container .sign-up-and-sign-in a:last-child {
   color: #fff;
 
   border-radius: 0.2rem;
+}
+
+#join .container .content-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #join .container .content-image img {
