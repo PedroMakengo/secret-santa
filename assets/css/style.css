@@ -29,6 +29,22 @@ header .container nav ul li:first-child a {
   color: #00873e;
 }
 
+header .container .sign-up-and-sign-in {
+  display: flex;
+  gap: 2rem;
+}
+
+header .container .sign-up-and-sign-in a {
+  padding: 0.5rem;
+}
+
+header .container .sign-up-and-sign-in a:last-child {
+  background: #00873e;
+
+  border-radius: 4px;
+  color: #fff;
+}
+
 .banner {
   position: absolute;
   top: 0;
@@ -54,7 +70,7 @@ header .container nav ul li:first-child a {
 
 .banner .container .content p {
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 2rem;
 
   margin-block: 1.5rem;
 }
@@ -65,12 +81,12 @@ header .container nav ul li:first-child a {
   justify-content: center;
 
   width: 40%;
-  height: 6vh;
+  height: 7vh;
   background: #00873e;
 
   color: #fff;
 
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .banner .container .content-image {
