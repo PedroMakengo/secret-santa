@@ -36,6 +36,7 @@ header .container .sign-up-and-sign-in {
 
 header .container .sign-up-and-sign-in a {
   padding: 0.5rem;
+  color: #000;
 }
 
 header .container .sign-up-and-sign-in a:last-child {
