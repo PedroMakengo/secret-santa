@@ -46,6 +46,10 @@ header .container .sign-up-and-sign-in a:last-child {
   color: #fff;
 }
 
+.content-banner {
+  height: 75vh;
+}
+
 .banner {
   position: absolute;
   top: 0;
@@ -62,7 +66,7 @@ header .container .sign-up-and-sign-in a:last-child {
   justify-content: space-between;
   height: 100%;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .banner .container .content h1 {
@@ -77,20 +81,6 @@ header .container .sign-up-and-sign-in a:last-child {
   margin-block: 1.5rem;
 }
 
-.banner .container .content a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 40%;
-  height: 7vh;
-  background: #00873e;
-
-  color: #fff;
-
-  border-radius: 4px;
-}
-
 .banner .container .content-image {
   display: flex;
   justify-content: flex-end;
@@ -98,4 +88,99 @@ header .container .sign-up-and-sign-in a:last-child {
 
 .banner .container .content-image img {
   width: 100%;
+}
+
+#new .container .about-new {
+  display: flex;
+}
+
+#new .container .christmas-wish-and-party .content,
+#new .container .christmas-wish-and-party .content-image,
+#new .container .about-new .content,
+#new .container .about-new .content-image {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#new .container .christmas-wish-and-party .content h2,
+#new .container .about-new .content h2 {
+  font-size: 3rem;
+  font-family: "Yeseva One", cursive;
+  font-weight: 300;
+}
+
+#new .container .christmas-wish-and-party .content p,
+#new .container .about-new .content p {
+  margin-block: 1.5rem;
+}
+
+#new .container .christmas-wish-and-party img,
+#new .container .about-new img {
+  width: 70%;
+}
+
+#new .container .christmas-wish-and-party {
+  margin-block: 3rem;
+  display: flex;
+}
+
+#new .container .christmas-wish-and-party .content-image {
+  display: flex;
+  align-items: flex-end;
+}
+
+#gift {
+  background: #d9f7ff;
+
+  margin-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+#gift .container .title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  padding-block: 4rem;
+}
+
+#gift .container .title h2 {
+  font-size: 2.5rem;
+  font-family: "Yeseva One", cursive;
+
+  margin-bottom: 1rem;
+}
+
+#gift .container .title p {
+  max-width: 65%;
+}
+
+#gift .container .gift-items {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 3rem;
+}
+
+#gift .container .gift-items .item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#gift .container .gift-items .item img {
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#gift .container .gift-items .item h3 {
+  padding-block: 0.9rem;
+  font-family: "Yeseva One", cursive;
+  font-weight: 300;
 }

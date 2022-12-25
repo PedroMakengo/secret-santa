@@ -20,6 +20,26 @@ body {
 }
 
 .container {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
+}
+
+.main-content {
+  margin-block: 4rem;
+}
+
+#new .container .christmas-wish-and-party .content a,
+#new .container .about-new .content a,
+.banner .container .content a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40%;
+  height: 7vh;
+  background: #00873e;
+
+  color: #fff;
+
+  border-radius: 4px;
 }
