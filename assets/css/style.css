@@ -44,7 +44,7 @@ header .container .sign-up-and-sign-in a {
 }
 
 header .container .sign-up-and-sign-in a:last-child {
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 
   border-radius: 4px;
   color: #fff;
