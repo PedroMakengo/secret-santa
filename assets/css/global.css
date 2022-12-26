@@ -5,13 +5,12 @@
 }
 
 :root {
-  --font-body: ;
+  --font-body: "DM Sans", sans-serif;
   --font-title: "Yeseva One", cursive;
 
   --bg-primary: #d9f7ff;
   --bg-secondary: #00873e;
   --bg-secondary-hover: #015e2c;
-  --bg-default: ;
 
   --width-container: 60%;
 }
@@ -29,7 +28,7 @@ a {
 
 button,
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-body);
 }
 
 .container {
