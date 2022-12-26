@@ -333,3 +333,11 @@ footer .container {
 footer .container img {
   width: 15%;
 }
+
+@media (max-width: 360px) {
+  main,
+  header,
+  footer {
+    display: none;
+  }
+}
