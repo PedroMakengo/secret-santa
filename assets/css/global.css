@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-body: ;
+  --font-title: ;
+
+  --bg-primary: ;
+  --bg-secondary: ;
+  --bg-default: ;
+}
+
 ul,
 li {
   list-style: none;
@@ -65,4 +74,10 @@ body {
   filter: blur(20px);
 
   background-image: linear-gradient(135deg, #d9f7ff 10%, #ff0000d0 100%);
+}
+
+/* CRIAR AS MINHAS CLASSES */
+
+.col--50 {
+  width: 50%;
 }
