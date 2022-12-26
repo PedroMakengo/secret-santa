@@ -13,6 +13,7 @@
   --bg-secondary-hover: #015e2c;
 
   --width-container: 60%;
+  --width-container-mobile: 90%;
 }
 
 ul,
@@ -100,4 +101,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (max-width: 640px) {
 }

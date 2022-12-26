@@ -304,10 +304,85 @@ footer .container img {
   width: 15%;
 }
 
-@media (max-width: 360px) {
-  main,
-  header,
-  footer {
+@media (max-width: 640px) {
+  header .container .logo,
+  header .container #openBtnMenuMobile {
+    position: relative;
+    z-index: 1;
+  }
+
+  #openBtnMenuMobile {
+    padding: 0.5rem;
+    background: var(--bg-secondary);
+    border: 0;
+    color: #fff;
+  }
+
+  header #mobileMenuDisplay {
+    background: #111111;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
     display: none;
+  }
+
+  header #mobileMenuDisplay.menu-open {
+    display: flex;
+  }
+
+  header #mobileMenuDisplay ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin: auto;
+    width: 90%;
+  }
+
+  header #mobileMenuDisplay ul li:first-child {
+    border-top: none;
+  }
+
+  header #mobileMenuDisplay ul li {
+    width: 90%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  header #mobileMenuDisplay ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  header #mobileMenuDisplay ul li div {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+
+    justify-content: center;
+  }
+  header #mobileMenuDisplay ul li div a {
+    background: var(--bg-secondary);
+    width: 50%;
+    padding: 0.9rem 0.5rem;
+
+    border-radius: 0.3rem;
+  }
+
+  header nav,
+  header .container .sign-up-and-sign-in,
+  main,
+  footer,
+  .content-banner {
+    display: none;
+  }
+
+  .container {
+    width: var(--width-container-mobile);
   }
 }
