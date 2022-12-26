@@ -77,7 +77,11 @@ body {
 }
 
 /* CRIAR AS MINHAS CLASSES */
-
 .col--50 {
   width: 50%;
+}
+
+.btn--santa {
+}
+.btn--santa:hover {
 }
