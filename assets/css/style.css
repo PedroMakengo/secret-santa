@@ -5,7 +5,11 @@ header {
   background-size: 30%;
   background-position-x: right;
 
-  z-index: 999;
+  background-color: #ffeaea;
+}
+
+.content-banner {
+  height: 75vh;
 }
 
 header .container {
@@ -13,7 +17,7 @@ header .container {
   justify-content: space-between;
   align-items: center;
 
-  height: 60%;
+  height: var(--width-container);
 }
 
 header .container nav ul {
@@ -26,7 +30,7 @@ header .container nav ul li a {
 }
 
 header .container nav ul li:first-child a {
-  color: #00873e;
+  color: var(--bg-secondary);
 }
 
 header .container .sign-up-and-sign-in {
@@ -40,25 +44,24 @@ header .container .sign-up-and-sign-in a {
 }
 
 header .container .sign-up-and-sign-in a:last-child {
-  background: #00873e;
+  background: var(--bg-primary);
 
   border-radius: 4px;
   color: #fff;
+
+  transition: background, 0.3s;
 }
 
-.content-banner {
-  height: 75vh;
+header .container .sign-up-and-sign-in a:last-child:hover {
+  background: var(--bg-secondary-hover);
 }
 
 .banner {
   position: absolute;
-  top: 0;
   background: url(../img/BG.png);
   background-size: cover;
   width: 100%;
-  height: 100vh;
-  z-index: -1;
-  padding-top: 10%;
+  height: 75vh;
 }
 
 .banner .container {
@@ -71,13 +74,12 @@ header .container .sign-up-and-sign-in a:last-child {
 
 .banner .container .content h1 {
   font-size: 3.5rem;
-  font-family: "Yeseva One", cursive;
+  font-family: var(--font-title);
 }
 
 .banner .container .content p {
   font-size: 1rem;
   line-height: 2rem;
-
   margin-block: 1.5rem;
 }
 
@@ -92,17 +94,6 @@ header .container .sign-up-and-sign-in a:last-child {
 
 #new .container .about-new {
   display: flex;
-}
-
-#new .container .christmas-wish-and-party .content,
-#new .container .christmas-wish-and-party .content-image,
-#new .container .about-new .content,
-#new .container .about-new .content-image {
-  width: 50%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 #new .container .christmas-wish-and-party img,
@@ -122,7 +113,7 @@ header .container .sign-up-and-sign-in a:last-child {
 
 /* GIFT */
 #gift {
-  background: #d9f7ff;
+  background: var(--bg-primary);
 
   margin-top: 5rem;
 
